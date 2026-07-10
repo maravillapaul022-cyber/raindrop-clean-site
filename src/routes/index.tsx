@@ -327,10 +327,10 @@ function Services() {
   );
 }
 
-import galleryInterior from "@/assets/gallery-interior.webp.asset.json";
-import galleryCommercial from "@/assets/gallery-commercial.jpg.asset.json";
-import galleryVanOld from "@/assets/gallery-van-old.jpg.asset.json";
-import galleryVanBranded from "@/assets/gallery-van-branded.jpg.asset.json";
+import galleryInterior from "@/assets/gallery-interior.webp";
+import galleryCommercial from "@/assets/gallery-commercial.jpg";
+import galleryVanOld from "@/assets/gallery-van-old.jpg";
+import galleryVanBranded from "@/assets/gallery-van-branded.jpg";
 
 const GALLERY = [
   {
