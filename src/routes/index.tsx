@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logoAsset from "@assets/raindrop-logo.png";
+import logoAsset from "../assets/raindrop-logo.png";
 import { useState } from "react";
 import {
   Phone,
@@ -327,10 +327,10 @@ function Services() {
   );
 }
 
-import galleryInterior from "@/assets/gallery-interior.webp";
-import galleryCommercial from "@/assets/gallery-commercial.jpg";
-import galleryVanOld from "@/assets/gallery-van-old.jpg";
-import galleryVanBranded from "@/assets/gallery-van-branded.jpg";
+import galleryInterior from "../assets/gallery-interior.webp";
+import galleryCommercial from "../assets/gallery-commercial.jpg";
+import galleryVanOld from "../assets/gallery-van-old.jpg";
+import galleryVanBranded from "../assets/gallery-van-branded.jpg";
 
 const GALLERY = [
   {
