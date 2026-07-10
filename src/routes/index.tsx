@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logoAsset from "@/assets/raindrop-logo.png.asset.json";
+import logoAsset from "@assets/raindrop-logo.png";
 import { useState } from "react";
 import {
   Phone,
