@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logoAsset from "../assets/raindrop-logo.png";
+
 import { useState } from "react";
 import {
   Phone,
@@ -74,7 +74,7 @@ function Logo({ className = "" }: { className?: string }) {
   return (
     <a href="#top" className={`inline-flex items-center ${className}`}>
       <img
-        src={logoAsset.url}
+      src="/raindrop-logo.png"
         alt="Raindrop Window Cleaning"
         className="h-11 w-auto object-contain"
       />
@@ -327,31 +327,30 @@ function Services() {
   );
 }
 
-import galleryInterior from "../assets/gallery-interior.webp";
-import galleryCommercial from "../assets/gallery-commercial.jpg";
-import galleryVanOld from "../assets/gallery-van-old.jpg";
-import galleryVanBranded from "../assets/gallery-van-branded.jpg";
+
+
+
 
 const GALLERY = [
   {
     label: "Interior Windows",
     span: "sm:row-span-2",
-    src: galleryInterior.url,
+    src: "/gallery-interior.webp",
   },
   {
     label: "Commercial Building",
     span: "",
-    src: galleryCommercial.url,
+    src: "/gallery-commercial.jpg",
   },
   {
     label: "On the Road",
     span: "",
-    src: galleryVanOld.url,
+    src: "/gallery-van-old.jpg"
   },
   {
     label: "Raindrop Van",
     span: "sm:row-span-2",
-    src: galleryVanBranded.url,
+   src: "/gallery-van-branded.jpg",
   },
 ];
 
